@@ -1,0 +1,159 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.closeBtn {
+  background: transparent;
+  color: var(--text-muted);
+}
+
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.cartItem {
+  display: flex;
+  gap: 12px;
+  background: var(--background);
+  padding: 12px;
+  border-radius: var(--radius-md);
+}
+
+.itemImage {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.itemDetails {
+  flex: 1;
+}
+
+.itemDetails h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.itemDetails p {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.quantityControl button {
+  background: transparent;
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deleteBtn {
+  background: transparent;
+  color: var(--secondary);
+}
+
+.summary {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+}
+
+.promoCode {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.promoCode input {
+  flex: 1;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--background);
+  font-size: 14px;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.discountText {
+  color: var(--secondary);
+}
+
+.shippingText {
+  color: #00b894;
+  font-weight: 600;
+}
+
+.totalRow {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--border);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.checkoutBtn {
+  width: 100%;
+  margin-top: 24px;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.payments {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+}
+
+.payments span {
+  font-weight: 600;
+  color: var(--text-dark);
+}
