@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: isProd ? '/NOVA-E.Commerce' : '',
+  basePath: isProd ? '/NOVA-E.Commerce.' : '',
   images: {
     unoptimized: true,
   },
